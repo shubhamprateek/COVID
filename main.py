@@ -36,4 +36,4 @@ if __name__ == "__main__":
                 nText = f"State : {dataList[1]}\nActive Cases :  {dataList[2]}\nCured :  {dataList[3]}\nDeaths :  {dataList[4]}\nTotal Cases :  {dataList[5]}"
                 notifyMe(nTitle,nText)
                 time.sleep(2)
-        time.sleep(3600)
+        time.sleep(3000)
